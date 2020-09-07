@@ -35,7 +35,7 @@ ul li a:hover {
 .header {
   padding: 20px;
   height: 100vh;
-  background: url(https://einsteinperspectives.com/wp-content/uploads/2020/02/Coronavirus-1.jpg) no-repeat center center;
+  background: url("Coronavirus-1.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
 }
@@ -56,7 +56,7 @@ ul li a:hover {
 }
 
 body {
-  background-image: url(https://images.unsplash.com/photo-1583423230902-b653abc541eb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url("coronavirus-2.jpeg");
 }
 
 .flex1 {
@@ -65,13 +65,10 @@ body {
   color: white;
   padding: 100px 150px 150px 100px;
   position: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#16222a), to(#4e4376));
+
   background: linear-gradient(to bottom, #16222a, #4e4376);
 }
-.flex1-child {
-  -webkit-box-flex: 1;
-          flex: 1;
-}
+
 .flex1 h1 {
   font-size: 325%;
   text-align: center;
@@ -86,18 +83,15 @@ body {
 }
 
 .flex2 {
-  display: -webkit-box;
+
   display: flex;
   color: white;
   padding: 100px 150px 150px 100px;
   position: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0f2027), color-stop(#203a43), to(#2c5364));
+
   background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
 }
-.flex2-child {
-  -webkit-box-flex: 1;
-          flex: 1;
-}
+
 .flex2 h1 {
   font-size: 325%;
   text-align: center;
@@ -111,21 +105,17 @@ body {
 }
 
 .flex {
-  display: -webkit-box;
+
   display: flex;
   color: white;
   padding-left: 3%;
   padding-right: 3%;
   position: center;
 }
-.flex-child {
-  -webkit-box-flex: 1;
-          flex: 1;
-}
+
 
 .flex--vertical {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
+  
           flex-direction: row;
   flex-wrap: wrap;
   padding-left: 3%;
