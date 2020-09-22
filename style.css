@@ -1,16 +1,10 @@
-#navbar {
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-}
+
 
 ul {
-  display: -webkit-box;
+ 
   display: flex;
   align-content: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 ul li {
@@ -35,7 +29,7 @@ ul li a:hover {
 .header {
   padding: 20px;
   height: 100vh;
-  background: url("Coronavirus-1.jpg") no-repeat center center;
+  background: url("Coronavirus-1.jpg") no-repeat  center;
   background-size: cover;
   position: relative;
 }
@@ -50,8 +44,6 @@ ul li a:hover {
 .header .content {
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   text-align: center;
 }
 
@@ -60,13 +52,11 @@ body {
 }
 
 .flex1 {
-  display: -webkit-box;
   display: flex;
   color: white;
   padding: 100px 150px 150px 100px;
   position: center;
-
-  background: linear-gradient(to bottom, #16222a, #4e4376);
+   background: linear-gradient(to bottom, #16222a, #4e4376);
 }
 
 .flex1 h1 {
@@ -88,8 +78,7 @@ body {
   color: white;
   padding: 100px 150px 150px 100px;
   position: center;
-
-  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+   background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
 }
 
 .flex2 h1 {
@@ -105,7 +94,6 @@ body {
 }
 
 .flex {
-
   display: flex;
   color: white;
   padding-left: 3%;
@@ -115,14 +103,8 @@ body {
 
 
 .flex--vertical {
-  
-          flex-direction: row;
+  flex-direction: row;
   flex-wrap: wrap;
   padding-left: 3%;
   padding-right: 3%;
-}
-.flex--vertical > .flex-child {
-  padding-left: 3%;
-  padding-right: 3%;
-  min-width: 100%;
 }
